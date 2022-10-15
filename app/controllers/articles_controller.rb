@@ -4,5 +4,6 @@ class ArticlesController < ApplicationController
     end
     
     def index
+        @articles = Article.all  # Finds all articles
     end
 end
